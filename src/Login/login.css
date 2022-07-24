@@ -1,0 +1,44 @@
+.userInput{
+    display: flex;
+    flex-direction: column;
+    
+}
+body{
+    background: linear-gradient(to right,black, blue, pink);
+    z-index: -999;
+}
+.login{
+    width: 400px;
+    height: 600px;
+    margin-top: 300px;
+    margin-left: 500px;
+    position: relative;
+}
+.userInput input{
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #CFD2CF;
+    border: none;
+}
+.button{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #112B3C;
+    border: none;
+    color: white;
+}
+.button:hover{
+    background-color: #205375;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.text{
+    justify-content: center;
+    font-size: 54px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: rgb(221, 216, 216);
+}

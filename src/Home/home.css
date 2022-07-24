@@ -1,0 +1,42 @@
+.tasks{
+    width: 800px;
+    background-color: rgb(28, 101, 101);
+    height: 50px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    -webkit-box-shadow: 4px 3px 15px 7px rgba(0,0,0,0.47); 
+box-shadow: 4px 3px 15px 7px rgba(0,0,0,0.47);
+transition: all 0.2s ease;
+    
+}
+.tasks:hover{
+    transform: scale(1.1);
+}
+.tasks span{
+    color: antiquewhite;
+    font-size: 20px;
+}
+.enteredText{
+    font-size: 46px;
+    margin-right: 400px;
+    color: antiquewhite;
+}
+.heading{
+    margin-bottom: 50px;
+}
+.editCredentials{
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+    background-color: #495C83;
+    color: antiquewhite;
+    transition: 0.2s ease;
+}
+.editCredentials:hover{
+    background-color: #6E85B7;
+    cursor: pointer;
+}
